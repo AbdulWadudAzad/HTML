@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        
+        <div id="container">
+            <div id="header">Header</div>
+            <div id="body">
+               <div id="Left">Left</div>
+               <div id="right">
+                   <fieldset>
+                   <legend> Registration here</legend>
+                        <form>
+
+                            <div class="form-container">
+                                <div class="labels"> <label> First Name: </label></div>
+                                <div class="fields"> <input type="text" name="first name" placeholder="Enter First Name " id="firstname"/></div>
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label> Last Name: </label></div>
+                                <div class="fields"> <input type="text" name="Last name" placeholder="Enter Last Name " id="lasttname"/></div>
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label> Gender </label></div>
+                                <input type="radio" name="gender" value="Male"/> Male
+                                <input type="radio" name="gender" value="Female"/> Female
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label> Hobby </label></div>
+                                <input type="checkbox" name="reading" checked="checked"value="reading"/>Reading
+                                <input type="checkbox" name="coding" value="coding"/>Coding
+                                <input type="checkbox" name="playing" value="playing"/>Playing
+                                <input type="checkbox" name="running" value="running"/>Running
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label> Country </label></div>
+                                <select name="country">
+                                        <option>Select a Country </option>
+                                        <option value="Bangladesh">Bangladesh</option>
+                                        <option value="Russia">Russia</option>
+                                        <option value="China">China</option>
+                                        <option value="Iran">Iran</option>
+                                        <option value="Turkey">Turkey</option>
+                                        <option value="Libia">Libia</option>
+                                    </select>
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label>Message</label></div>
+                                <div class="fields">
+                                    <textarea name="msg" rows="5" cols="20">                
+                                    </textarea>
+                            </div>
+                            
+                       
+                            
+                        </form>
+                   </fieldset>
+               </div>
+            </div>
+            <div id="buttom">Copyright</div>
+        </div>
+    </body>
+</html>

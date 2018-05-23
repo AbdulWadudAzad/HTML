@@ -1,0 +1,48 @@
+#maincontainer{
+    width: 80%;
+    height: 410px;
+    background: #ccc;
+    margin:  0 auto;
+}
+#headercontainer{
+    width: 100%;
+    height: 80px;
+    background:  #85c1e9;
+    margin:  0 auto;
+}
+#bodycontainer{
+    width: 100%;
+    height: 270px;
+    background: #ccc;
+    margin:  0 auto;
+}
+#left{
+    width: 20%;
+    height: 270px;
+    background:  #76d7c4 ;
+    float: left;
+}
+#middle{
+    width: 60%;
+    height: 270px;
+    background:    #424949  ;
+    float: left;
+}
+#right{
+    width: 20%;
+    height: 270px;
+    background:  #76d7c4 ;
+    float: right;
+}
+#footertopcontainer{
+    width: 100%;
+    height: 20px;
+    background:  #2471a3 ;
+    margin:  0 auto;
+}
+#footercontainer{
+    width: 100%;
+    height: 40px;
+    background:  #85c1e9 ;
+    margin:  0 auto;
+}
